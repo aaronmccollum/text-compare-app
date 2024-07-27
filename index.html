@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Compare App</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Text Compare App</h1>
+            <p>An application that compares two different inputs of text to spot differences.</p>
+        </header>
+        <main>
+            <div id="main-input-container">
+                <div id="left-inputs">
+                    <div id="inputs">
+                        <div id="inputOne">
+                            <textarea class="textAreas" id="textAreaOne" cols="40" rows="10" placeholder="Enter first string of text"></textarea>"
+                        </div>
+                        <div id="inputTwo">
+                            <textarea class="textAreas" id="textAreaTwo" cols="40" rows="10" placeholder="Enter second string of text"></textarea>"
+                        </div>
+                    </div>
+                    <div id="buttons">
+                        <button id="submitButton" type="submit">Submit</button>
+                        <button id="clearButton" type="button">Clear</button>
+                    </div>
+                </div>
+                <div id="right-inputs">
+                    <div id="results"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p id="footer-text">Created by Aaron Mac - 2024</p>
+        </footer>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
